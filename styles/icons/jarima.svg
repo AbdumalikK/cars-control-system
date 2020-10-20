@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48">
+  <g id="Group_62" data-name="Group 62" transform="translate(-296 -120)">
+    <g id="Jarima">
+      <rect id="Rectangle_29" data-name="Rectangle 29" width="48" height="48" transform="translate(296 120)" fill="none"/>
+      <text id="Jarima-2" data-name="Jarima" transform="translate(320 162)" fill="#0040bf" font-size="12" font-family="Titillium-Regular, Titillium" letter-spacing="0.01em"><tspan x="-16.452" y="0">Jarima</tspan></text>
+      <path id="Path_162" data-name="Path 162" d="M203.164,418.253A18.67,18.67,0,0,1,199.392,430a9.406,9.406,0,0,1-4.839,3.274A9.4,9.4,0,0,1,189.711,430a18.67,18.67,0,0,1-3.772-11.744c0-.451.012-.9.04-1.337a3.947,3.947,0,0,0,3.26-3.3,40.776,40.776,0,0,1,10.625,0,3.947,3.947,0,0,0,3.26,3.3C203.152,417.356,203.164,417.8,203.164,418.253Z" transform="translate(125.561 -286.771)" fill="none" stroke="#0040bf" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+    <g id="Group_59" data-name="Group 59" transform="translate(-471.31 104.75) rotate(-45)">
+      <path id="Path_137" data-name="Path 137" d="M95.228,858.779l-5.841,5.841c-.606.605-3.723,2.732-4.327,2.126s1.521-3.722,2.126-4.327l5.841-5.841a1.556,1.556,0,0,1,2.2,2.2Z" transform="translate(447.333 -280.004)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_138" data-name="Path 138" d="M91.523,875.578c.354-.354,1.138-.148,1.743.458s.811,1.39.457,1.743" transform="translate(442.886 -293.052)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_139" data-name="Path 139" d="M108.634,858.466c.354-.354,1.138-.148,1.744.458s.811,1.39.457,1.743" transform="translate(431.306 -281.472)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48">
+  <g id="Sotuv" transform="translate(-240 -120)">
+    <rect id="Rectangle_28" data-name="Rectangle 28" width="48" height="48" transform="translate(240 120)" fill="none"/>
+    <text id="Sotuv-2" data-name="Sotuv" transform="translate(264 162)" fill="#0040bf" font-size="12" font-family="Titillium-Regular, Titillium" letter-spacing="0.01em"><tspan x="-14.814" y="0">Sotuv</tspan></text>
+    <g id="Group_48" data-name="Group 48" transform="translate(-250.488 -94.054)">
+      <path id="Path_129" data-name="Path 129" d="M59.155,517.766H62.22l1.36,3.941.939,5.731s.115,1.3,1.188,1.32,6.437,0,6.437,0a1.378,1.378,0,0,0,1.379-1.248c.307-1.338,1.475-5.731,1.475-5.731H66.492" transform="translate(447.333 -291.275)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_130" data-name="Path 130" d="M78.216,557.257a1.085,1.085,0,1,1-1.084-1.023A1.055,1.055,0,0,1,78.216,557.257Z" transform="translate(436.264 -317.225)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_131" data-name="Path 131" d="M93.686,557.257a1.086,1.086,0,1,1-1.084-1.023A1.055,1.055,0,0,1,93.686,557.257Z" transform="translate(426.13 -317.225)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_132" data-name="Path 132" d="M92.237,504.087,89.3,501.058v1.911s-2.636-.118-3.766,1.928a5.479,5.479,0,0,0-.247,4.277,3.99,3.99,0,0,1,1.35-3.3,5.2,5.2,0,0,1,2.662-.686v1.9Z" transform="translate(430.427 -280.004)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

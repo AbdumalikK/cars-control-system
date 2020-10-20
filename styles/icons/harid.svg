@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 48 48">
+  <g id="Harid" transform="translate(-184 -120)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="48" height="48" transform="translate(184 120)" fill="none"/>
+    <text id="Harid-2" data-name="Harid" transform="translate(208 162)" fill="#0040bf" font-size="12" font-family="Titillium-Regular, Titillium" letter-spacing="0.01em"><tspan x="-13.86" y="0">Harid</tspan></text>
+    <g id="Group_47" data-name="Group 47" transform="translate(-306.488 8)">
+      <path id="Path_125" data-name="Path 125" d="M59.155,411.691H62.25l1.374,4.217.948,6.132s.116,1.393,1.2,1.412,6.5,0,6.5,0,1.083.1,1.393-1.335,1.489-6.132,1.489-6.132H66.564" transform="translate(447.333 -288.273)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_126" data-name="Path 126" d="M78.237,451.254a1.094,1.094,0,1,1-1.094-1.094A1.094,1.094,0,0,1,78.237,451.254Z" transform="translate(436.321 -313.348)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_127" data-name="Path 127" d="M93.707,451.254a1.094,1.094,0,1,1-1.095-1.094A1.095,1.095,0,0,1,93.707,451.254Z" transform="translate(426.238 -313.348)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      <path id="Path_128" data-name="Path 128" d="M83.594,406.353l-3.152-2.965h1.99a4.322,4.322,0,0,1,2.006-3.8,5.861,5.861,0,0,1,4.45-.249s-2.329-.171-3.43,1.363a5.121,5.121,0,0,0-.714,2.688h1.977Z" transform="translate(433.458 -280.004)" fill="none" stroke="#0040bf" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

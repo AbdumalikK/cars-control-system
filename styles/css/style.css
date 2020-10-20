@@ -1,0 +1,595 @@
+@font-face {
+  font-family: Titillium Lt;
+  src: url(../fonts/TITILLIUM-THIN.OTF);
+}
+@font-face {
+  font-family: Titillium;
+  src: url(../fonts/TITILLIUM-REGULAR.OTF);
+}
+@font-face {
+  font-family: Titillium Bd;
+  src: url(../fonts/TITILLIUM-BOLD.OTF);
+}
+*, body {
+  font-family: "Titillium Bd", "Arial";
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #194399;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #fffee9;
+  }
+
+  .container {
+    background-color: #FFF;
+  }
+
+  .container-fluid {
+    background-color: #FFF;
+  }
+
+  .minus {
+    margin-top: -80px;
+  }
+
+  .add-date {
+    position: absolute;
+    bottom: 30px;
+    right: 130px !important;
+    font-size: 8px;
+    font-family: "Titillium Bd";
+    color: #595959;
+  }
+
+  .add-date-second {
+    position: absolute;
+    bottom: 119px;
+    right: 130px !important;
+    font-size: 8px;
+    font-family: "Titillium Bd";
+    color: #595959;
+  }
+}
+@media screen and (max-width: 904px) {
+  .container {
+    background-color: #FFF;
+  }
+
+  .container-fluid {
+    background-color: #FFF;
+  }
+
+  .m-min {
+    margin-top: -30px;
+  }
+}
+/*Width*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/*Track*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #EFEFEF;
+  border-radius: 20px;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb {
+  background: #FFFF00;
+  border-radius: 8px;
+}
+
+.font-titillium-bd {
+  font-family: "Titillium Bd", "Arial";
+  color: #0040BF;
+}
+
+.font-titillium-regular {
+  margin: 0;
+  font-family: "Titillium";
+}
+
+.logo {
+  /*width: 100%;
+  height: 100%;*/
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  /*margin-top: -30px;*/
+}
+
+.notification {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+.search {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+.container {
+  margin-top: -30px;
+}
+
+.btn-nav {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.btn-nav:focus {
+  outline: none;
+}
+
+.ntf {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  font-size: 10px;
+}
+
+.bg-yellow {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFF00;
+}
+
+.br-blue {
+  margin: 8px 0;
+  border-right: 1px solid #0040BF !important;
+}
+
+.px12 {
+  margin: 8px 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #FFFF00;
+  margin: 0 auto;
+}
+
+.px2 {
+  padding: 2px;
+}
+
+.collapse {
+  margin: 8px 16px;
+}
+
+.show {
+  margin: 8px 16px;
+}
+
+.pos-top {
+  display: inline;
+  width: 132px !important;
+  height: 47px !important;
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 66px);
+}
+
+@media screen and (min-width: 880px) {
+  .logo-press {
+    margin-top: -122px;
+  }
+}
+.dayNight {
+  margin-top: 20px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 50px);
+}
+
+.reminder {
+  width: 80%;
+  padding: 10px;
+  border-top: 3px solid #FF0000;
+}
+
+.finished {
+  width: 80%;
+  padding: 10px;
+  border-top: 3px solid #55FF00;
+}
+
+.reminder-top {
+  width: 80%;
+  padding: 5px;
+  border-bottom: 3px solid #FF0000;
+}
+
+.finished-top {
+  width: 80%;
+  padding: 5px;
+  border-bottom: 3px solid #55FF00;
+}
+
+.tasks-border {
+  width: 80%;
+  border-bottom: 3px solid #0040BF;
+}
+
+.tasks-border-top {
+  width: 80%;
+  border-top: 3px solid #0040BF;
+}
+
+.add-border-left {
+  border-left: 2px solid #0040BF;
+}
+
+.content-bordered {
+  border-top: 1px solid #707070;
+}
+
+.info {
+  margin-top: 8px;
+}
+
+.badge-content-img {
+  font-size: 13px;
+  color: white;
+  background-color: #FF0000;
+}
+
+.content-border {
+  font-weight: normal;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.6);
+}
+
+.content-border-top {
+  border-top: 1px solid rgba(112, 112, 112, 0.6);
+}
+
+.content-p {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.content-who {
+  font-size: 11px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  opacity: 0.6;
+}
+
+.br-3 {
+  display: none;
+  margin-bottom: 3px;
+}
+
+.font-8 {
+  font-size: 11px;
+  color: black;
+  opacity: 0.6;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.content-day {
+  display: inline-block;
+  font-size: 25px;
+  color: #FF0000;
+  margin: 0 1px 0 0;
+}
+
+.content-day-color {
+  color: #FF0000;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.content-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.province-btn {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  padding: 4px 6px !important;
+  background: none;
+  border: 1px solid rgba(0, 63, 191, 0.2);
+  border-radius: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: initial;
+}
+
+.province-number {
+  display: inline-block;
+  float: right;
+  color: #7F7F7F;
+  font-size: 10px;
+}
+
+.province-shadow {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.photo-flex {
+  display: inherit;
+  flex-direction: row;
+}
+
+.custom-file-input {
+  position: relative;
+  top: -91px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 1;
+}
+
+.custom-file-input::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 64px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.file-input {
+  width: 64px;
+  height: 64px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.add-date {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+  font-size: 8px;
+  font-family: "Titillium Bd";
+  color: #595959;
+}
+
+.add-date-second {
+  position: absolute;
+  bottom: 119px;
+  right: 50px;
+  font-size: 8px;
+  font-family: "Titillium Bd";
+  color: #595959;
+}
+
+.btn-add-red {
+  width: 72px;
+  height: 24px;
+  background-color: #FF0000;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.btn-add-green {
+  width: 80px;
+  height: 28px;
+  background-color: #55FF00;
+  color: black;
+  padding: 0px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.wd39 {
+  width: 39% !important;
+}
+
+.wd89 {
+  width: 89% !important;
+}
+
+.wd100 {
+  width: 100% !important;
+}
+
+.btn-sell {
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  color: #0040BF;
+  border: 1px solid #0040BF;
+  border-radius: 20px;
+}
+
+.btn-purchase {
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  color: #0040BF;
+  border: 1px solid #0040BF;
+  border-radius: 20px;
+}
+
+.btn-save {
+  width: 100%;
+  font-family: "Titillium";
+  color: #0040BF;
+  background-color: #55FF00;
+  border: 0px solid #0040BF;
+  border-radius: 20px;
+}
+
+.btn-sell-img {
+  position: relative;
+  top: 0;
+  right: -36px;
+  background: none;
+  padding: 8px 6px;
+  border: 1px solid #0040BF;
+  border-right: 0;
+  border-radius: 20px;
+}
+
+.btn-purchase-img {
+  position: relative;
+  top: -24px;
+  left: -55px;
+  background: none;
+  padding: 8px 7px;
+  border: 1px solid #0040BF;
+  border-left: 0;
+  border-radius: 20px;
+}
+
+.btn-sell-title {
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 2.8;
+}
+
+.btn-purchase-title {
+  display: block;
+  margin-bottom: 12px;
+  line-height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+input:checked + .btn-sell-title + .btn-sell-img > #bg-sell {
+  background-color: #FF0000;
+}
+
+input:checked + .btn-sell-title {
+  color: #FF0000;
+}
+
+input:checked + .btn-purchase-title + .btn-purchase-img > #bg-purchase {
+  background-color: #FF0000;
+}
+
+input:checked + .btn-purchase-title {
+  color: #FF0000;
+}
+
+#bg-sell {
+  display: inline-block;
+  padding: 3px 4px;
+  border: 1px solid white;
+  border-radius: 24px;
+  transition: background-color 1s;
+  transition-timing-function: ease-in;
+}
+
+#bg-purchase {
+  display: inline-block;
+  padding: 3px 4px;
+  border: 1px solid white;
+  border-radius: 24px;
+  transition: background-color 1s;
+  transition-timing-function: ease-in;
+}
+
+.unlink:hover {
+  text-decoration: none;
+}
+
+.fine-top {
+  margin-top: 29px;
+}
+
+.bottom30 {
+  bottom: 30px !important;
+}
+
+.top-0 {
+  top: 0 !important;
+  left: 15px !important;
+}
+
+.user-info-titles {
+  font-size: 10px;
+  font-family: "Titillium Bd";
+  color: rgba(59, 59, 59, 0.6);
+}
+
+.view-user {
+  font-size: 12px;
+  font-family: "Titillium";
+}
+
+.wd78 {
+  width: 78%;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.6);
+  margin-bottom: 5px !important;
+}
+
+.ml-15 {
+  margin-left: 14px;
+}
+
+.btn-docs {
+  background-color: #0040BF;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.bg-history {
+  background-color: rgba(59, 59, 59, 0.1);
+}
+
+.colorrgba59 {
+  color: rgba(59, 59, 59, 0.6) !important;
+}
+
+.toggle {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
